@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Task3.css">
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div class="tic-tac-toe">
+        <div class="board">
+            <div class="cell" onclick="handleCellClick(0)"></div>
+            <div class="cell" onclick="handleCellClick(1)"></div>
+            <div class="cell" onclick="handleCellClick(2)"></div>
+            <div class="cell" onclick="handleCellClick(3)"></div>
+            <div class="cell" onclick="handleCellClick(4)"></div>
+            <div class="cell" onclick="handleCellClick(5)"></div>
+            <div class="cell" onclick="handleCellClick(6)"></div>
+            <div class="cell" onclick="handleCellClick(7)"></div>
+            <div class="cell" onclick="handleCellClick(8)"></div>
+        </div>
+        <div class="status" id="status">Player X's turn</div>
+        <button id="reset" onclick="resetBoard()">Reset</button>
+    </div>
+    <script src="Task3.js"></script>
+</body>
+</html>
